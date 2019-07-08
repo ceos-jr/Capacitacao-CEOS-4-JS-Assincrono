@@ -102,10 +102,10 @@ Se ainda está curioso a respeito ou meus exemplos geniais (são idiotas eu sei,
 *Tempo médio de leitura: 3 minutos*
 
 [Requisições síncronas e assíncronas](http://www.diogomatheus.com.br/blog/php/requisicoes-sincronas-e-assincronas/) - *Diogo Matheus* <br/>
-*Tempo médio de leitura: 2 minutos *
+*Tempo médio de leitura: 2 minutos*
 
 [JavaScript Assíncrono](https://medium.com/@alcidesqueiroz/javascript-ass%C3%ADncrono-callbacks-promises-e-async-functions-9191b8272298) - *Medium* <br/>
-*Tempo médio de leitura: 10 minutos *
+*Tempo médio de leitura: 10 minutos*
 
 
 
