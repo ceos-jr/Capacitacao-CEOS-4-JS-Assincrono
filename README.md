@@ -5,8 +5,8 @@ Este módulo tem como objetivo cazer com que o membro da CEOS tenha uma noção 
 
 Abaixo está o sumário dos tópicos que ir descrever a jornada do membro ao seguir este módulo.
 <br/><br/>
-Para acessar a página do módulo, basta clicar no link do sumário referente ao módulo. (Caso o link não esteja funcionando, aguarde, estamos trabalhando para gerar o melhor conteúdo para você ).
-
+Para acessar a página do módulo, basta clicar no link do sumário referente ao módulo. (Caso o link não esteja funcionando, aguarde, estamos trabalhando para gerar o melhor conteúdo para você).
+<br/><br/>
 1. O que é programação assíncrona? 
 
 2. Como podemos programar JavaScript Assíncronamente?
