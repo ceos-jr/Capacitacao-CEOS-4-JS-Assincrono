@@ -1,3 +1,3 @@
-# Capacitao-CEOS-4-JS-Assincrono
+# Capacitação CEOS | 4 - JavaScript Assíncrono
 
 Este módulo vai ensinar JS Async
