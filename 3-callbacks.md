@@ -100,7 +100,7 @@ Tente dominar um pouco mais de como podemos flexibilizar nossos **Callbacks** us
 <br/>
 <br/>
 <br/>
-**Exercício proposto:**
+**Exercício proposto (1):**
 
 Primeiramente execute o código abaixo para entender o seu funcionamento caso este não esteja muito claro ainda.
 Sua tarefa é converter o código abaixo, de modo que você substitua a função ***imprimeMilissegundos*** por uma função anônima passada dentro do callback.
@@ -178,7 +178,7 @@ E finalmente, para finalizar esse tópico, fique com esse **EXERCÍCIO PROPOSTO*
 <br/>
 <br/>
 <br/>
-**Exercício proposto:**
+**Exercício proposto (2):**
 
 Sua tarefa é de ler o conteúdo de um arquivo de texto e escrevê-lo em outro arquivo de texto. Para isso utilize as funções do ***File System*** do Node cuja documentação completa segue abaixo:
 
