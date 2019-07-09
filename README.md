@@ -9,9 +9,9 @@ Para acessar a página do módulo, basta clicar no link do sumário referente ao
 <br/><br/>
 1. [O que é programação assíncrona?](https://ceos-jr.github.io/Capacitacao-CEOS-4-JS-Assincrono/1-oqueeprogassinc) 
 
-2. Como podemos programar JavaScript Assíncronamente?
+2. [Como podemos programar JavaScript Assíncronamente?](https://ceos-jr.github.io/Capacitacao-CEOS-4-JS-Assincrono/2-comoprogjsasync)
 
-3. CallBacks
+3. [CallBacks](https://ceos-jr.github.io/Capacitacao-CEOS-4-JS-Assincrono/3-callbacks)
 
 4. Promises
 
