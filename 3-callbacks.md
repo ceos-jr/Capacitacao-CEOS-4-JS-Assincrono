@@ -184,6 +184,8 @@ Sua tarefa é de ler o conteúdo de um arquivo de texto e escrevê-lo em outro a
 
 [Documentação File System](https://nodejs.org/api/fs.html)
 
+Vale lembrar que operações no disco levam tempo para serem executadas.
+
 Utilize as funções de readFile e writeFile como mostradas abaixo para conseguir os dados corretamente.
 
 ***obs:*** Você **NÃO PODE** usar as funções readFileSync ou writeFileSync. Para este exercício, elas estão estritamente proibidas.
