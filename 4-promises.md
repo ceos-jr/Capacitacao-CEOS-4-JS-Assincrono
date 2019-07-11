@@ -36,12 +36,16 @@ O exemplo acima serve apenas para ilustrar mesmo como que uma Promise é constru
 
 * **new Promise**: O construtor da Promise.
 <br/>
+
 * **( ) =>**: Arrow function que será passada para a Promise.
 <br/>
+
 * **(resolve, reject)**: Métodos que serão passados para a função que a Promise executará. Desse modo a função que a Promise executa pode acessálos.
 <br/>
+
 * **resolve("...")**: Indica que tudo deu certo e manda uma mensagem ao usuário para indicar isso.
 <br/>
+
 * **reject("...")**: Indica que algo deu errado e manda uma mensagem ao usuário para indicar isso
 
 Ou seja, a **Promise** é criada e a ela é passada uma **função** que será executada ( ou pelo menos tentará ). A Promise manda para essa função dois de seus métodos: **resolve** e **reject**. Desse modo, a função poderá notificar a nós sempre que algo der certo ou não, ela faz isso simplesmente chamando os métodos **resolve** e **reject** nos momentos oportunos para indicar isso.
@@ -157,6 +161,10 @@ Desse modo, estaremos esperando que os dados estejam prontos. Vale lembrar que *
 
 Vimos como podemos simular uma Promise assíncrona com ***setTimeout*** e como podemos utilizar seu dado depois dela se cumprir. Porém, fica a seu cargo como podemos utilizar o reject para sinalizar que algo deu errado, e isso vai ser cobrado com um ***EXERCÍCIO PROPOSTO***
 
+<br/>
+<br/>
+<br/>
+
 ***Exercício Proposto (3):***
 
 Use o código abaixo (espelhamento do código acima) para se basear durante esse exercício:
@@ -182,6 +190,10 @@ O seu reject deverá notificar ao usuário que um erro ocorreu devido ao baixo v
 ***dica:*** O método padrão das Promises ***then*** recebe dois argumentos, sendo eles duas funções ***callback***. Um para o ***resolve*** e outro para o ***reject***.
 
 Envie o código contendo a solução para o exercício proposto acima no repositório correspondente após a sua conclusão.
+
+<br/>
+<br/>
+<br/>
 
 ### catch
 
@@ -280,7 +292,7 @@ Esse significado semântico é tão importante quanto o significado semântico q
 
 Depois de ver tudo isso nas nossas Promises, acredito que você tenha conseguido entender bem sobre elas, como elas funcionam e como podemos trabalhar com elas. Caso contrário, recomendo a leitura do link abaixo:
 
-[O básico de Promises](https://javascript.info/promise-basics) - JavaScript Info
+[O básico de Promises](https://javascript.info/promise-basics) - JavaScript Info<br/>
 *Tempo médio de leitura: 12 minutos*
 
 E finalmente, não podemos encerrar esse módulo sem mais um ***EXERCÍCIO PROPOSTO***
@@ -291,14 +303,21 @@ Reescreva o código do exercício proposto anterior fazendo as seguintes mudanç
 
 * Ao invés de ser um número menor que 300, um número será inválido se este for ***menor que 100, maior que 900, primo ou múltiplo de 7, 13, 21 ou 23***
 <br/>
+
 * Use um ***catch*** para tratar esses erros
 <br/>
+
 * O catch deverá imprimir na tela usando um *console.log* o tipo do erro (Múltiplo de 7, Menor que 100, etc). Basta um tipo (não precisa imprimir ex: Múltiplo de 7 e Menor que 100).
 <br/>
+
 * Dessa vez, mande para o reject um objeto do tipo ***Error***, você já deve ter visto ele no módulo de JavaScript, caso não tenha, eis sua documentação: [Documentação Objeto Error](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error) - MDN
+
 <br/>
+
 * Após isso, você deverá imprimir na tela usando *console.log* o número que foi gerado, **independente** se foi um erro ou não.
+
 <br/>
+
 * Utilize para o tópico acima, um ***finally***
 
 ***Código do exercício anterior:***
