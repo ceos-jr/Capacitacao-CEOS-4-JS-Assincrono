@@ -15,7 +15,7 @@ Para acessar a página do módulo, basta clicar no link do sumário referente ao
 
 4. [Promises](https://ceos-jr.github.io/Capacitacao-CEOS-4-JS-Assincrono/4-promises)
 
-5. Funções Assíncronas
+5. [Funções Assíncronas](https://ceos-jr.github.io/Capacitacao-CEOS-4-JS-Assincrono/5-asyncfunc)
 
 6. O loop de eventos (Event Loop)
 
