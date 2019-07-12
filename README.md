@@ -26,7 +26,7 @@ Para acessar a página do módulo, basta clicar no link do sumário referente ao
 
 Alguns módulos possuem exercícios. Cada repositório tem suas pastas de exercício junto com seus arquivos vazios para você começar a escreve seu código. Mas antes de começar a resolver as tarefas, você precisa dar um **fork** no repositório. Clique no botão que se encontra no canto superior direito da página.
 
-![Botão do Github de Fork](.github/github-fork.png)
+![Botão do Github de Fork](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/github-fork.png)
 
 Forkado o projeto, copie o link que se encontra no repositório forkado.
 
