@@ -85,39 +85,39 @@ Por exemplo, a pilha de funções está da seguinte forma:
 
 No início, nada foi chamado ainda, logo a pilha está vazia:
 
-[PILHA1]
+![PILHA1](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/pilha1.png)
 
 Depois, a função ***boaNoite*** é chamada, e portanto, é empilhada:
 
-[PILHA2]
+![PILHA2](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/pilha2.png)
 
 A função ***boaNoite*** por sua vez chama a função ***boaTarde*** e esta é empilhada:
 
-[PILHA3]
+![PILHA3](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/pilha3.png)
 
 E a função boaTarde chama a função ***bomDia*** e esta é empilhada:
 
-[PILHA4]
+![PILHA4](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/pilha4.png)
 
 A função bomDia está executando e chama a função *console.log*, que também é empilhada:
 
-[PILHA5]
+![PILHA5](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/pilha5.png)
 
 Após ser chamada, a função *console.log* executa e se encerra, logo ela sai da pilha de funções (desempilhada):
 
-[PILHA4]
+![PILHA4](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/pilha4.png)
 
 E como era de se esperar, a função ***bomDia*** se encerra e sai da pilha:
 
-[PILHA6]
+![PILHA6](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/pilha6.png)
 
 Esse procedimento acontece também para a função ***boaTarde***:
 
-[PILHA7]
+![PILHA7](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/pilha7.png)
 
 E finalmente para a função ***boaNoite***:
 
-[PILHA8]
+![PILHA8](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/pilha8.png)
 
 Encerrando o nosso programa com a Pilha de Funções vazia.
 
@@ -137,7 +137,7 @@ Vamos pensar um pouco, com a lógica da Pilha de Funções, teríamos o seguinte
 
 Primeiramente, com a pilha vazia, a função *console.log* iria pra pilha, executaria e sairia da pilha:
 
-[Loop1]
+![LOOP1](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/loop1.png)
 
 E assim, temos no terminal:
 
@@ -147,13 +147,13 @@ Ok, ok, tudo certo até aí.
 
 Agora o ***setTimeout*** entra pra pilha, diz que após 0ms outra função vai ser executada, e, finalmente, sai da pilha:
 
-[Loop2]
+![LOOP2](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/loop2.png)
 
 0ms se passam ("*instantâneo*") e a função que foi solicitada pelo ***setTimeout*** é executada, mandando um *console.log* na tela e saindo da pilha:
 
-[Loop3]
+![LOOP3](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/loop3.png)
 
-[Loop4]
+![Loop4](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/loop4.png)
 
 E temos no terminal
 
@@ -162,7 +162,7 @@ E temos no terminal
 
 Finalmente, o terceiro *console.log* vai para a pilha, é executado e por fim, sai dela:
 
-[Loop5]
+![LOOP5](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/blob/master/.github/loop5.png)
 
 E nosso terminal fica assim
 
