@@ -79,7 +79,7 @@ Pois é aí que você está...
 
 Completamente certo! Não se preocupe, não tem pegadinha aqui, esse código ainda imprime isso, você não vai precisar voltar ao módulo de JavaScript pra revisar funções. Mas vamos *dissecar* essa execução e ver o que está acontecendo.
 
-A pilha de eventos tem todo o processo de uma função enquanto esta está executando, logo, ele começa a encher quando a função começa e esvazia quando a função termina.
+A Pilha de Funções vai conter todas as funções que estão atualmente executando no programa. Quando uma função é executada ela entra para a pilha, quando essa função termina de executar ela sai da pilha. Desse modo, quando temos uma funçao sendo chamada dentro da outra, a primeira função é empilhada e, antes de ser desempilhada, a função mais interna empilhada, executada e desempilhada. Só então a função mais externa termina de executar e é desempilhada.
 
 Por exemplo, a pilha de funções está da seguinte forma:
 
