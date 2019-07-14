@@ -17,9 +17,7 @@ Para acessar a página do módulo, basta clicar no link do sumário referente ao
 
 5. [Funções Assíncronas](https://ceos-jr.github.io/Capacitacao-CEOS-4-JS-Assincrono/5-asyncfunc)
 
-6. O loop de eventos (Event Loop)
-
-7. Eventos comuns (DOM) e como o Event Loop os trata
+6. [O loop de eventos (Event Loop)](https://ceos-jr.github.io/Capacitacao-CEOS-4-JS-Assincrono/6-eventloop)
 
 
 ## Enviando exercícios
