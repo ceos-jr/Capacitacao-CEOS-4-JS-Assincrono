@@ -253,51 +253,49 @@ Veja abaixo como ***realmente*** está acontecendo no nosso primeiro exemplo:
 
 Primeiramente, nada de especial, temos todos os nossos trabalhadores do JavaScript parados, nada começou ainda
 
-![FULL1]
+![FULL1](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full1.png)
 
 Então, o primeiro console.log entra na Pilha de Funções:
 
-![FULL2]
+![FULL2](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full2.png)
 
 Depois de ser executado, ele sai da Pilha:
 
-![FULL1]
+![FULL1](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full1.png)
 
 Então, o setTimeout entra na Pilha de Funções:
 
-![FULL3]
+![FULL3](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full3.png)
 
 Após deixar o evento para ser disparado alguma hora, ele sai da pilha
 
-![FULL1]
+![FULL1](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full1.png)
 
 Vamos supor que seja realmente instantâneos os nosso 0ms, desse modo, assim que ele sair da pilha o evento será disparado e capturado pelo nosso ***Event Loop***:
 
-![FULL4]
+![FULL4](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full4.png)
 
 O ***Event Loop*** então manda a função callback para a Fila de Funções, onde ela será executada assim que tiver chance:
 
-![FULL5]
+![FULL5](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full5.png)
 
 Porém, a Pilha de Funções ainda não está ociosa! Ela pode estar vazia, mas no nosso código, ainda há uma função *console.log* para ser executada, e é isso que acontece. Essa função entra para a Pilha:
 
-![FULL6]
+![FULL7](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full7.png)
 
 Após ela ser executada, ela sairá da Pilha:
 
-![FULL5]
+![FULL5](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full5.png)
 
 Agora sim! Nossa Pilha está ociosa, não há mais nada previsto para ser executado, logo ela está pronta para receber funções da Fila de Funções, e é isso que acontece, ela recebe o *console.log* que estava esperando na fila:
 
-![FULL7]
+![FULL9](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full9.png)
 
 Finalmente, nosso *console.log* é executado e sai da fila
 
-![FULL8]
+![FULL1](https://github.com/ceos-jr/Capacitacao-CEOS-4-JS-Assincrono/raw/master/.github/full1.png)
 
 E isso encerra o nosso programa, com todos os nosso trabalhadores parados novamente.
-
-![FULL1]
 
 E é isso! Agora sim, essa realmente é a maneira que o JavaScript lida com essas operações.
 
@@ -305,15 +303,19 @@ Logicamente eu omiti várias outras coisas de complexidade muito maior que ocorr
 
 
 [Entendendo Código Assíncrono em JavaScript](https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff) - Bits and Pieces
+<br/>
 *Tempo médio de leitura: 13 minutos*
 
 [Vídeo: Loop de Eventos JavaScript](https://www.youtube.com/watch?v=XzXIMZMN9k4) - ComSience Simplified
+<br/>
 *Duração: 8:19 min*
 
 [Como o JavaScript trabalha](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5) - SessionStack
+<br/>
 *Tempo médio de leitura: 25 minutos*
 
 [JavaScript e a mágica assíncrona](https://levelup.gitconnected.com/javascript-and-asynchronous-magic-bee537edc2da) - Git Connected
+<br/>
 *Tempo médio de leitura: 14 minutos*
 
 E para esse tópico é isso. Pense nisso toda vez que trabalhar com esses eventos, pode salvar a sua vida (e **muito** tempo também).
