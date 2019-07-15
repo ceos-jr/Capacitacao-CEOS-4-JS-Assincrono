@@ -19,6 +19,7 @@ Para acessar a página do módulo, basta clicar no link do sumário referente ao
 
 6. [O loop de eventos (Event Loop)](https://ceos-jr.github.io/Capacitacao-CEOS-4-JS-Assincrono/6-eventloop)
 
+7. [Lista de Exercícios](https://ceos-jr.github.io/Capacitacao-CEOS-4-JS-Assincrono/7-exercicios)
 
 ## Enviando exercícios
 
