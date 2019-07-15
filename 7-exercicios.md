@@ -98,6 +98,10 @@ Depois de criar essas funções, ***encadeie as Promises***, de modo que:
 
 Para isso, use o ***then()*** das Promises e preste atenção em como você pode manipular as rejeições e resoluções.
 
+<br/>
+<br/>
+<br/>
+
 ## Funções Assíncronas
 
 ***Exercício Proposto 10:***
@@ -138,4 +142,4 @@ O retorno ideal vindo do terminal para que o exercício esteja resolvido correta
 		123
 
 
-***obs:*** Jooj copioi a função ***sleep*** do módulo, então ela está 100% correta e fazendo o que deveria fazer.
+***obs:*** Jooj copiou a função ***sleep*** do módulo, então ela está 100% correta e fazendo o que deveria fazer.
