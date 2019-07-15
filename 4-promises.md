@@ -230,7 +230,7 @@ O ***catch*** é apenas uma outra forma de escrever:
 
 Que nos serve muito bem quando precisamos tratar apenas os erros de uma Promise e não precisamos fazer nada imediatamente após ela, já que estamos passando ***null*** como o primeiro argumento do método ***then***.
 
-### finally
+### finally (novo)
 
 E *finalmente* ( foi mal, foi mal ), temos o nosso método ***finally*** que vai conter uma função que será executada **independentemente** da nossa Promise ser resolvida ou rejeitada:
 
@@ -288,6 +288,8 @@ Porém, vocês concordam que fica relativamente estranho não é mesmo?
 
 Realmente fica utilizando apenas  ***then***, pois ***finally*** está explicitamente dizendo à você, programador, que a função passada para ele será executada independentemente do resultado. Assim como ***catch*** indica que você só está interessado em tratar erros.
 
+**MAS ATENÇÃO!!! finally() ainda não chegou no NodeJS adequadamente. Caso ele não funcione, use a sintaxe de repetição de função no then()**
+
 Esse significado semântico é tão importante quanto o significado semântico que estudamos nos workshops de ***HTML5***.
 
 Depois de ver tudo isso nas nossas Promises, acredito que você tenha conseguido entender bem sobre elas, como elas funcionam e como podemos trabalhar com elas. Caso contrário, recomendo a leitura do link abaixo:
@@ -317,8 +319,6 @@ Reescreva o código do exercício proposto anterior fazendo as seguintes mudanç
 * Após isso, você deverá imprimir na tela usando *console.log* o número que foi gerado, **independente** se foi um erro ou não.
 
 <br/>
-
-* Utilize para o tópico acima, um ***finally***
 
 ***Código do exercício anterior:***
 ```JavaScript
