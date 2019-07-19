@@ -88,7 +88,7 @@ Caso ainda tenha dúvida a respeito do funcionamento do métodos, a leitura abai
 ```JavaScript
     const meuIntervalo = setInterval(..., ...);
 	...
-    meuIntervalo.clearInterval();
+    clearInterval(meuIntervalo);
 ```
 <br/>
 <br/>
